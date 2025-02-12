@@ -1,0 +1,680 @@
+
+            2024-12-13T00:07:39.647Z | IP: ::ffff:127.0.0.1 | GET /api/v2/personal/filtered?salario_max=20000&role=farmaceutico
+            Status: 200 | Duration: 293ms
+            User Agent: Unknown
+            Query String: {"salario_max":"20000","role":"farmaceutico"}
+            Request Body: {}
+
+        
+            2024-12-13T00:08:44.171Z | IP: ::ffff:127.0.0.1 | POST /api/v2/personal/filtered?salario_max=20000&role=farmaceutico
+            Status: 404 | Duration: 3ms
+            User Agent: Unknown
+            Query String: {"salario_max":"20000","role":"farmaceutico"}
+            Request Body: {}
+
+        
+            2024-12-13T00:10:30.281Z | IP: ::ffff:127.0.0.1 | POST /api/v2/personal/filtered?salario_max=20000&role=farmaceutico
+            Status: 404 | Duration: 19ms
+            User Agent: Unknown
+            Query String: {"salario_max":"20000","role":"farmaceutico"}
+            Request Body: {}
+
+        
+            2024-12-13T00:10:34.103Z | IP: ::ffff:127.0.0.1 | GET /api/v2/personal/filtered?salario_max=20000&role=farmaceutico
+            Status: 500 | Duration: 22ms
+            User Agent: Unknown
+            Query String: {"salario_max":"20000","role":"farmaceutico"}
+            Request Body: {}
+
+        
+            2024-12-14T14:18:49.432Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles?limit=15
+            Status: 200 | Duration: 271ms
+            User Agent: Unknown
+            Query String: {"limit":"15"}
+            Request Body: {}
+
+        
+            2024-12-14T14:19:28.644Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles?limit=15&page=0
+            Status: 200 | Duration: 115ms
+            User Agent: Unknown
+            Query String: {"limit":"15","page":"0"}
+            Request Body: {}
+
+        
+            2024-12-14T14:19:51.760Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles?limit=15&page=1
+            Status: 200 | Duration: 96ms
+            User Agent: Unknown
+            Query String: {"limit":"15","page":"1"}
+            Request Body: {}
+
+        
+            2024-12-14T14:19:56.647Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles?limit=15&page=2
+            Status: 200 | Duration: 5ms
+            User Agent: Unknown
+            Query String: {"limit":"15","page":"2"}
+            Request Body: {}
+
+        
+            2024-12-14T14:20:10.308Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles?limit=15&page=3
+            Status: 200 | Duration: 111ms
+            User Agent: Unknown
+            Query String: {"limit":"15","page":"3"}
+            Request Body: {}
+
+        
+            2024-12-14T14:20:36.101Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles?limit=15&page=0
+            Status: 200 | Duration: 71ms
+            User Agent: Unknown
+            Query String: {"limit":"15","page":"0"}
+            Request Body: {}
+
+        
+            2024-12-14T14:21:29.527Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles?limit=15&page=4
+            Status: 200 | Duration: 99ms
+            User Agent: Unknown
+            Query String: {"limit":"15","page":"4"}
+            Request Body: {}
+
+        
+            2024-12-14T14:21:44.738Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles?limit=15&page=1
+            Status: 200 | Duration: 115ms
+            User Agent: Unknown
+            Query String: {"limit":"15","page":"1"}
+            Request Body: {}
+
+        
+            2024-12-14T14:42:25.683Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles?limit=15&page=1
+            Status: 200 | Duration: 136ms
+            User Agent: Unknown
+            Query String: {"limit":"15","page":"1"}
+            Request Body: {}
+
+        
+            2024-12-14T14:43:49.603Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles?limit=15&page=1
+            Status: 200 | Duration: 170ms
+            User Agent: Unknown
+            Query String: {"limit":"15","page":"1"}
+            Request Body: {}
+
+        
+            2024-12-14T14:44:03.491Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles?limit=15&page=2
+            Status: 200 | Duration: 100ms
+            User Agent: Unknown
+            Query String: {"limit":"15","page":"2"}
+            Request Body: {}
+
+        
+            2024-12-14T14:44:24.109Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles?limit=15&page=3
+            Status: 200 | Duration: 110ms
+            User Agent: Unknown
+            Query String: {"limit":"15","page":"3"}
+            Request Body: {}
+
+        
+            2024-12-14T14:45:20.181Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles?limit=8&page=3
+            Status: 200 | Duration: 217ms
+            User Agent: Unknown
+            Query String: {"limit":"8","page":"3"}
+            Request Body: {}
+
+        
+            2024-12-14T14:45:44.453Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles?limit=15&page=3
+            Status: 200 | Duration: 114ms
+            User Agent: Unknown
+            Query String: {"limit":"15","page":"3"}
+            Request Body: {}
+
+        
+            2024-12-14T14:46:46.597Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles?limit=8&page=3
+            Status: 200 | Duration: 94ms
+            User Agent: Unknown
+            Query String: {"limit":"8","page":"3"}
+            Request Body: {}
+
+        
+            2024-12-14T14:46:57.690Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles?limit=8&page=4
+            Status: 200 | Duration: 197ms
+            User Agent: Unknown
+            Query String: {"limit":"8","page":"4"}
+            Request Body: {}
+
+        
+            2024-12-14T14:47:06.104Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles?limit=8&page=5
+            Status: 200 | Duration: 16ms
+            User Agent: Unknown
+            Query String: {"limit":"8","page":"5"}
+            Request Body: {}
+
+        
+            2024-12-14T14:51:10.574Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles/33
+            Status: 200 | Duration: 148ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {}
+
+        
+            2024-12-14T14:51:35.994Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles?limit=8&page=5
+            Status: 200 | Duration: 114ms
+            User Agent: Unknown
+            Query String: {"limit":"8","page":"5"}
+            Request Body: {}
+
+        
+            2024-12-14T14:52:04.786Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles/33
+            Status: 200 | Duration: 205ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {}
+
+        
+            2024-12-14T15:07:24.997Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles/filtered?tipo=%27%27&ba%C3%B1os_min=%27%27&ba%C3%B1os_max=%27%27&habitaciones_min=%27%27&habitaciones_max=%27%27
+            Status: 500 | Duration: 216ms
+            User Agent: Unknown
+            Query String: {"tipo":"''","baños_min":"''","baños_max":"''","habitaciones_min":"''","habitaciones_max":"''"}
+            Request Body: {}
+
+        
+            2024-12-14T15:09:59.310Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles/filtered?tipo=%27%27&ba%C3%B1os_min=%27%27&ba%C3%B1os_max=%27%27&habitaciones_min=%27%27&habitaciones_max=%27%27&page=1&limit=15
+            Status: 500 | Duration: 227ms
+            User Agent: Unknown
+            Query String: {"tipo":"''","baños_min":"''","baños_max":"''","habitaciones_min":"''","habitaciones_max":"''","page":"1","limit":"15"}
+            Request Body: {}
+
+        
+            2024-12-14T15:11:06.779Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles/filtered?tipo=%27%27&ba%C3%B1os_min=%27%27&ba%C3%B1os_max=%27%27&habitaciones_min=%27%27&habitaciones_max=%27%27&page=1&limit=15
+            Status: 500 | Duration: 237ms
+            User Agent: Unknown
+            Query String: {"tipo":"''","baños_min":"''","baños_max":"''","habitaciones_min":"''","habitaciones_max":"''","page":"1","limit":"15"}
+            Request Body: {}
+
+        
+            2024-12-14T15:12:38.440Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles/filtered?tipo&ba%C3%B1os_min&ba%C3%B1os_max&habitaciones_min&habitaciones_max&page=1&limit=15
+            Status: 500 | Duration: 162ms
+            User Agent: Unknown
+            Query String: {"tipo":"","baños_min":"","baños_max":"","habitaciones_min":"","habitaciones_max":"","page":"1","limit":"15"}
+            Request Body: {}
+
+        
+            2024-12-14T15:13:15.185Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles/filtered?tipo&ba%C3%B1os_min&ba%C3%B1os_max&habitaciones_min&habitaciones_max&page=1&limit=15
+            Status: 500 | Duration: 309ms
+            User Agent: Unknown
+            Query String: {"tipo":"","baños_min":"","baños_max":"","habitaciones_min":"","habitaciones_max":"","page":"1","limit":"15"}
+            Request Body: {}
+
+        
+            2024-12-14T15:15:22.690Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles/filtered?tipo&ba%C3%B1os_min&ba%C3%B1os_max&habitaciones_min&habitaciones_max&page=1&limit=15
+            Status: 200 | Duration: 265ms
+            User Agent: Unknown
+            Query String: {"tipo":"","baños_min":"","baños_max":"","habitaciones_min":"","habitaciones_max":"","page":"1","limit":"15"}
+            Request Body: {}
+
+        
+            2024-12-14T15:15:58.904Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles/filtered?tipo=Casa&ba%C3%B1os_min&ba%C3%B1os_max&habitaciones_min&habitaciones_max&page=1&limit=15
+            Status: 200 | Duration: 261ms
+            User Agent: Unknown
+            Query String: {"tipo":"Casa","baños_min":"","baños_max":"","habitaciones_min":"","habitaciones_max":"","page":"1","limit":"15"}
+            Request Body: {}
+
+        
+            2024-12-14T15:16:47.690Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles/filtered?tipo=Casa&ba%C3%B1os_min&ba%C3%B1os_max&habitaciones_min&habitaciones_max&page=3&limit=15
+            Status: 200 | Duration: 152ms
+            User Agent: Unknown
+            Query String: {"tipo":"Casa","baños_min":"","baños_max":"","habitaciones_min":"","habitaciones_max":"","page":"3","limit":"15"}
+            Request Body: {}
+
+        
+            2024-12-14T15:17:56.691Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles/filtered?tipo=Casa&ba%C3%B1os_min&ba%C3%B1os_max&habitaciones_min&habitaciones_max&page=1&limit=15
+            Status: 200 | Duration: 197ms
+            User Agent: Unknown
+            Query String: {"tipo":"Casa","baños_min":"","baños_max":"","habitaciones_min":"","habitaciones_max":"","page":"1","limit":"15"}
+            Request Body: {}
+
+        
+            2024-12-14T15:18:08.233Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles/filtered?tipo=Casa&ba%C3%B1os_min&ba%C3%B1os_max&habitaciones_min&habitaciones_max&page=2&limit=15
+            Status: 200 | Duration: 144ms
+            User Agent: Unknown
+            Query String: {"tipo":"Casa","baños_min":"","baños_max":"","habitaciones_min":"","habitaciones_max":"","page":"2","limit":"15"}
+            Request Body: {}
+
+        
+            2024-12-14T15:19:19.007Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles/filtered?tipo=Casa&ba%C3%B1os_min&ba%C3%B1os_max&habitaciones_min&habitaciones_max&page=2&limit=15
+            Status: 200 | Duration: 257ms
+            User Agent: Unknown
+            Query String: {"tipo":"Casa","baños_min":"","baños_max":"","habitaciones_min":"","habitaciones_max":"","page":"2","limit":"15"}
+            Request Body: {}
+
+        
+            2024-12-14T15:19:23.369Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles/filtered?tipo=Casa&ba%C3%B1os_min&ba%C3%B1os_max&habitaciones_min&habitaciones_max&page=1&limit=15
+            Status: 200 | Duration: 17ms
+            User Agent: Unknown
+            Query String: {"tipo":"Casa","baños_min":"","baños_max":"","habitaciones_min":"","habitaciones_max":"","page":"1","limit":"15"}
+            Request Body: {}
+
+        
+            2024-12-14T15:19:48.007Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles/filtered?tipo=Terreno&ba%C3%B1os_min&ba%C3%B1os_max&habitaciones_min&habitaciones_max&page=1&limit=15
+            Status: 200 | Duration: 242ms
+            User Agent: Unknown
+            Query String: {"tipo":"Terreno","baños_min":"","baños_max":"","habitaciones_min":"","habitaciones_max":"","page":"1","limit":"15"}
+            Request Body: {}
+
+        
+            2024-12-19T22:55:39.707Z | IP: ::1 | POST /api/v2/auth/login
+            Status: 500 | Duration: 36ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {}
+
+        
+            2024-12-19T22:56:19.104Z | IP: ::1 | POST /api/v2/auth/login
+            Status: 500 | Duration: 52ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {}
+
+        
+            2024-12-19T22:56:56.651Z | IP: ::1 | POST /api/v2/auth/login
+            Status: 404 | Duration: 279ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {}
+
+        
+            2024-12-19T22:57:51.023Z | IP: ::1 | POST /api/v2/auth/login
+            Status: 404 | Duration: 160ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"admin@books.com","password":"12345"}
+
+        
+            2024-12-19T22:58:04.528Z | IP: ::1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 182ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"admin@books.com","password":"123456"}
+
+        
+            2024-12-19T23:23:29.123Z | IP: ::1 | DELETE /api/v2/books/delete/5
+            Status: 500 | Duration: 46ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {}
+
+        
+            2024-12-19T23:24:25.493Z | IP: ::1 | DELETE /api/v2/books/delete/5
+            Status: 500 | Duration: 45ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {}
+
+        
+            2024-12-19T23:25:32.439Z | IP: ::1 | DELETE /api/v2/books/delete/5
+            Status: 500 | Duration: 225ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {}
+
+        
+            2024-12-19T23:25:57.253Z | IP: ::1 | DELETE /api/v2/books/delete/5
+            Status: 404 | Duration: 329ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {}
+
+        
+            2024-12-19T23:26:11.107Z | IP: ::1 | DELETE /api/v2/books/delete/4
+            Status: 404 | Duration: 204ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {}
+
+        
+            2024-12-19T23:26:16.723Z | IP: ::1 | DELETE /api/v2/books/delete/3
+            Status: 200 | Duration: 18ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {}
+
+        
+            2024-12-19T23:26:37.426Z | IP: ::1 | DELETE /api/v2/books/delete/3
+            Status: 404 | Duration: 163ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {}
+
+        
+            2024-12-19T23:27:38.562Z | IP: ::1 | DELETE /api/v2/books/delete/3
+            Status: 500 | Duration: 14ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {}
+
+        
+            2024-12-19T23:40:56.948Z | IP: ::1 | POST /api/v2/auth/register
+            Status: 201 | Duration: 226ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"pepito@gamil.com","password":"12345"}
+
+        
+            2024-12-19T23:42:26.491Z | IP: ::1 | POST /api/v2/auth/register
+            Status: 201 | Duration: 267ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"pakoo@gamil.com","password":"12345"}
+
+        
+            2024-12-19T23:44:08.835Z | IP: ::1 | POST /api/v2/auth/register
+            Status: 201 | Duration: 297ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"pako@gamil.com","password":"12345"}
+
+        
+            2024-12-19T23:51:03.971Z | IP: ::1 | POST /api/v2/auth/login
+            Status: 401 | Duration: 172ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"admin@books.com","password":"123456"}
+
+        
+            2024-12-19T23:51:38.945Z | IP: ::1 | POST /api/v2/auth/login
+            Status: 401 | Duration: 319ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"pako@gamil.com","password":"123456"}
+
+        
+            2024-12-19T23:51:45.355Z | IP: ::1 | POST /api/v2/auth/login
+            Status: 500 | Duration: 118ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"pako@gamil.com","password":"12345"}
+
+        
+            2024-12-19T23:52:09.027Z | IP: ::1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 294ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"pako@gamil.com","password":"12345"}
+
+        
+            2024-12-19T23:54:07.959Z | IP: ::1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 343ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"pako@gamil.com","password":"12345"}
+
+        
+            2024-12-19T23:54:43.754Z | IP: ::1 | POST /api/v2/auth/login
+            Status: 404 | Duration: 223ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"pakoAdmin@gamil.com","password":"12345","role":"ADMIN"}
+
+        
+            2024-12-19T23:55:01.955Z | IP: ::1 | POST /api/v2/auth/register
+            Status: 201 | Duration: 314ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"pakoAdmin@gamil.com","password":"12345","role":"ADMIN"}
+
+        
+            2024-12-19T23:55:18.290Z | IP: ::1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 285ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"pakoAdmin@gamil.com","password":"12345"}
+
+        
+            2024-12-20T00:03:41.089Z | IP: ::1 | DELETE /api/v2/books/delete/2
+            Status: 401 | Duration: 48ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {}
+
+        
+            2024-12-20T00:04:12.682Z | IP: ::1 | DELETE /api/v2/books/delete/2
+            Status: 200 | Duration: 290ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {}
+
+        
+            2024-12-20T00:04:19.983Z | IP: ::1 | DELETE /api/v2/books/delete/2
+            Status: 404 | Duration: 24ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {}
+
+        
+            2024-12-21T15:03:12.628Z | IP: ::ffff:127.0.0.1 | POST /api/v2/send-verification-email
+            Status: 200 | Duration: 1651ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"nelsonluengas3@gmail.com","userId":23}
+
+        
+            2024-12-21T15:03:54.753Z | IP: ::1 | GET /api/v2/verify-email?email=nelsonluengas3@gmail.com&token=[object%20Object]
+            Status: 500 | Duration: 175ms
+            User Agent: Unknown
+            Query String: {"email":"nelsonluengas3@gmail.com","token":"[object Object]"}
+            Request Body: {}
+
+        
+            2024-12-21T15:03:54.873Z | IP: ::1 | GET /favicon.ico
+            Status: 404 | Duration: 9ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {}
+
+        
+            2024-12-21T15:04:57.578Z | IP: ::ffff:127.0.0.1 | POST /api/v2/send-verification-email
+            Status: 200 | Duration: 1808ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"nelsonluengas3@gmail.com","userId":23}
+
+        
+            2024-12-21T15:06:04.022Z | IP: ::ffff:127.0.0.1 | POST /api/v2/send-verification-email
+            Status: 200 | Duration: 1468ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"nelsonluengas3@gmail.com","userId":23}
+
+        
+            2024-12-21T15:07:01.274Z | IP: ::ffff:127.0.0.1 | POST /api/v2/send-verification-email
+            Status: 200 | Duration: 1615ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"nelsonluengas3@gmail.com","userId":23}
+
+        
+            2024-12-21T15:07:18.401Z | IP: ::1 | GET /api/v2/verify-email?email=nelsonluengas3@gmail.com&token=239bc7ed-65f1-4e0f-93ff-afc3a0e0b9fc
+            Status: 302 | Duration: 138ms
+            User Agent: Unknown
+            Query String: {"email":"nelsonluengas3@gmail.com","token":"239bc7ed-65f1-4e0f-93ff-afc3a0e0b9fc"}
+            Request Body: {}
+
+        
+            2024-12-21T15:10:44.195Z | IP: ::ffff:127.0.0.1 | POST /api/v2/auth/register
+            Status: 201 | Duration: 165ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"cgut90@hotmail.com","password":"12345"}
+
+        
+            2024-12-21T15:12:16.920Z | IP: ::ffff:127.0.0.1 | POST /api/v2/send-verification-email
+            Status: 200 | Duration: 1363ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"cgut90@hotmail.com","userId":7}
+
+        
+            2024-12-21T15:12:56.183Z | IP: ::1 | GET /api/v2/verify-email?email=nelsonluengas3@gmail.com&token=239bc7ed-65f1-4e0f-93ff-afc3a0e0b9fc
+            Status: 500 | Duration: 115ms
+            User Agent: Unknown
+            Query String: {"email":"nelsonluengas3@gmail.com","token":"239bc7ed-65f1-4e0f-93ff-afc3a0e0b9fc"}
+            Request Body: {}
+
+        
+            2024-12-21T15:13:51.067Z | IP: ::1 | GET /api/v2/verify-email?email=nelsonluengas3@gmail.com&token=239bc7ed-65f1-4e0f-93ff-afc3a0e0b9fc
+            Status: 302 | Duration: 257ms
+            User Agent: Unknown
+            Query String: {"email":"nelsonluengas3@gmail.com","token":"239bc7ed-65f1-4e0f-93ff-afc3a0e0b9fc"}
+            Request Body: {}
+
+        
+            2024-12-21T15:14:58.490Z | IP: ::ffff:127.0.0.1 | POST /api/v2/auth/register
+            Status: 500 | Duration: 7ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"simoncarlosv@gmail.com","password":12345}
+
+        
+            2024-12-21T15:15:05.901Z | IP: ::ffff:127.0.0.1 | POST /api/v2/auth/register
+            Status: 201 | Duration: 248ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"simoncarlosv@gmail.com","password":"12345"}
+
+        
+            2024-12-21T15:15:28.993Z | IP: ::ffff:127.0.0.1 | POST /api/v2/send-verification-email
+            Status: 200 | Duration: 1482ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"simoncarlosv@gmail.com","userId":8}
+
+        
+            2024-12-21T15:16:32.104Z | IP: ::ffff:127.0.0.1 | POST /api/v2/auth/register
+            Status: 201 | Duration: 238ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"nelsonluengas3@gmail.com","password":"12345"}
+
+        
+            2024-12-21T15:16:43.606Z | IP: ::ffff:127.0.0.1 | POST /api/v2/auth/register
+            Status: 500 | Duration: 3ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"nelsonluengas3@gmail.com","userId":9}
+
+        
+            2024-12-21T15:16:51.303Z | IP: ::ffff:127.0.0.1 | POST /api/v2/send-verification-email
+            Status: 200 | Duration: 1252ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"nelsonluengas3@gmail.com","userId":9}
+
+        
+            2024-12-21T15:17:18.710Z | IP: ::1 | GET /api/v2/verify-email?email=nelsonluengas3@gmail.com&token=2ba51973-cdd6-48c1-804a-92713152ba47
+            Status: 302 | Duration: 47ms
+            User Agent: Unknown
+            Query String: {"email":"nelsonluengas3@gmail.com","token":"2ba51973-cdd6-48c1-804a-92713152ba47"}
+            Request Body: {}
+
+        
+            2025-01-09T23:59:13.529Z | IP: ::ffff:127.0.0.1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 11ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {}
+
+        
+            2025-01-09T23:59:48.438Z | IP: ::ffff:127.0.0.1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 11ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"test@example.com","password":"password"}
+
+        
+            2025-01-09T23:59:52.942Z | IP: ::ffff:127.0.0.1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 16ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"test@example.com","password":"password"}
+
+        
+            2025-01-10T00:01:14.595Z | IP: ::ffff:127.0.0.1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 13ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"test@example.com","password":"password"}
+
+        
+            2025-01-10T00:01:47.130Z | IP: ::ffff:127.0.0.1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 11ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"test@example.com","password":"password"}
+
+        
+            2025-01-10T00:02:00.865Z | IP: ::ffff:127.0.0.1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 10ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"test@example.com","password":"password"}
+
+        
+            2025-01-10T00:02:41.680Z | IP: ::ffff:127.0.0.1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 20ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"test@example.com","password":"password"}
+
+        
+            2025-01-10T00:02:51.126Z | IP: ::ffff:127.0.0.1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 9ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"test@example.com","password":"password"}
+
+        
+            2025-01-10T00:03:03.727Z | IP: ::ffff:127.0.0.1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 8ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"test@example.com","password":"password"}
+
+        
+            2025-01-10T00:03:38.381Z | IP: ::ffff:127.0.0.1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 11ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"test@example.com","password":"password"}
+
+        
+            2025-01-10T00:03:49.493Z | IP: ::ffff:127.0.0.1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 12ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"test@example.com","password":"password"}
+
+        
+            2025-01-10T00:04:06.888Z | IP: ::ffff:127.0.0.1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 12ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"test@example.com","password":"password"}
+
+        
+            2025-01-10T00:04:15.918Z | IP: ::ffff:127.0.0.1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 7ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"test@example.com","password":"password"}
+
+        
+            2025-01-10T00:04:33.350Z | IP: ::ffff:127.0.0.1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 10ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"test@example.com","password":"password"}
+
+        
+            2025-01-10T00:05:07.089Z | IP: ::ffff:127.0.0.1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 9ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"test@example.com","password":"password"}
+
+        
